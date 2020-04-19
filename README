@@ -1,0 +1,33 @@
+Otavio Nunes Rosa 11319037
+
+======== EXECUCAO E COMPILACAO =======
+
+Entre na pasta 'src' e abra o terminal
+COMPILACAO DAS CLASSES
+
+javac Player.java
+javac Ball.java
+javac Score.java
+
+
+EXECUCAO DO PROGRAMA
+
+java Pong 5 true
+
+
+============= OBSERVACAO ==============
+
+   A bola estava entrando no player 
+pelos lados dele e nao consegui achar 
+uma boa logica para arrumar isso, entao 
+eu resolvi tratar com uma correcao de 
+posicao da bola.
+
+   Se a bola pega da metade pra frente
+da lateral do jogador, ela anda 
+cx + height/2, se pega da metade pra 
+tras, cx - height/2.
+
+   Por conta disso, o metodo Ball.
+checkCollision do player parece o 
+capeta. Tenha um bom dia.
